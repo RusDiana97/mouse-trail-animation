@@ -1,0 +1,1 @@
+I created a mouse trail animation using HTML, CSS and JavaScript. The trail is a leaf.
