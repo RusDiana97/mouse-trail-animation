@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: lightyellow;
+    height: 100vh;
+}
+
+span {
+    background-image: url(https://cdn1.iconfinder.com/data/icons/fall-4/513/yellow_leaf-512.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: leaf 6s linear;
+}
+
+@keyframes leaf {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100% {
+        transform: translate(-50%, -500%);
+        opacity: 0;
+        filter: hue-rotate(200deg);
+    }
+}
